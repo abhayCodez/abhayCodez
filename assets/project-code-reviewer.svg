@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="230" viewBox="0 0 500 230" role="img" aria-labelledby="title">
+  <title id="title">AI Code Reviewer: Reviews GitHub repositories with Gemini and Spring AI. Spring AI ChatClient prompts Gemini for reviews; Eureka discovery with load-balanced WebClient; BCrypt users in PostgreSQL, history in MongoDB.</title>
+  <rect x="0.5" y="0.5" width="499" height="229" rx="10" fill="#0D1117" stroke="#30363D"/>
+  <text x="24" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#F0F6FC">AI Code Reviewer</text>
+  <text x="24" y="68" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14" fill="#C9D1D9">Reviews GitHub repositories with Gemini and Spring AI</text>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="13.5" fill="#B1BAC4">
+    <circle cx="30" cy="98" r="2.5" fill="#8B949E"/>
+    <text x="42" y="103">Spring AI ChatClient prompts Gemini for reviews</text>
+    <circle cx="30" cy="121" r="2.5" fill="#8B949E"/>
+    <text x="42" y="126">Eureka discovery with load-balanced WebClient</text>
+    <circle cx="30" cy="144" r="2.5" fill="#8B949E"/>
+    <text x="42" y="149">BCrypt users in PostgreSQL, history in MongoDB</text>
+  </g>
+  <g font-family="ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#C9D1D9">
+    <rect x="24" y="164" width="85" height="22" rx="11" fill="#161B22" stroke="#30363D"/>
+    <text x="66.4" y="179.5" text-anchor="middle">Spring AI</text>
+    <rect x="117" y="164" width="106" height="22" rx="11" fill="#161B22" stroke="#30363D"/>
+    <text x="170.2" y="179.5" text-anchor="middle">Spring Cloud</text>
+    <rect x="231" y="164" width="70" height="22" rx="11" fill="#161B22" stroke="#30363D"/>
+    <text x="266.2" y="179.5" text-anchor="middle">MongoDB</text>
+    <rect x="309" y="164" width="92" height="22" rx="11" fill="#161B22" stroke="#30363D"/>
+    <text x="355.0" y="179.5" text-anchor="middle">PostgreSQL</text>
+  </g>
+  <text x="24" y="212" font-family="ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#58A6FF">github.com/abhayCodez/code_reviewer</text>
+</svg>
