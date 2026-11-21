@@ -5,7 +5,7 @@
 
 ## About
 
-I'm a backend engineer at **DGLiger Consulting**, working on the notification and template services of **Startup India – BHASKAR** (DPIIT, Government of India) in Java 21 and Spring Boot.
+I'm a backend engineer at **DGLiger Consulting**, working on the notification and template services of a multi-tenant platform in Java 21 and Spring Boot.
 
 My focus is API security and data isolation:
 
