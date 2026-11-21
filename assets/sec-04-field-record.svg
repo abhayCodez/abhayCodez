@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="60" viewBox="0 0 1000 60" role="img" aria-label="04 Field Record">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22070B"/>
+      <stop offset="0.45" stop-color="#0D0D11"/>
+      <stop offset="1" stop-color="#0D0D11"/>
+    </linearGradient>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFC72C" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#FFC72C" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#FFC72C" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="panel"><rect x="0" y="6" width="1000" height="48" rx="8"/></clipPath>
+  </defs>
+  <g clip-path="url(#panel)">
+    <rect x="0" y="6" width="1000" height="48" fill="url(#bg)"/>
+    <rect x="0" y="6" width="10" height="48" fill="#C1121F"/>
+    <rect x="1000" y="6" width="180" height="48" fill="url(#sweep)">
+      <animate attributeName="x" values="-180;1000" dur="5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <rect x="0.5" y="6.5" width="999" height="47" rx="8" fill="none" stroke="#FFC72C" stroke-opacity="0.45"/>
+  <text x="32" y="38" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="4"><tspan fill="#E0242F">04</tspan><tspan fill="#FFC72C" dx="12">// FIELD RECORD</tspan></text>
+  <text x="962" y="35" text-anchor="end" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="12" letter-spacing="2" fill="#FFC72C" fill-opacity="0.7">SYS.HISTORY</text>
+  <circle cx="976" cy="30" r="4" fill="#7DF9FF">
+    <animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/>
+  </circle>
+</svg>

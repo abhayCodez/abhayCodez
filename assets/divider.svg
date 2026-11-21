@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="36" viewBox="0 0 1000 36" role="img" aria-label="Section divider">
+  <defs>
+    <linearGradient id="left" gradientUnits="userSpaceOnUse" x1="40" y1="0" x2="470" y2="0">
+      <stop offset="0" stop-color="#FFC72C" stop-opacity="0"/>
+      <stop offset="1" stop-color="#FFC72C"/>
+    </linearGradient>
+    <linearGradient id="right" gradientUnits="userSpaceOnUse" x1="530" y1="0" x2="960" y2="0">
+      <stop offset="0" stop-color="#FFC72C"/>
+      <stop offset="1" stop-color="#FFC72C" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="pulse">
+      <stop offset="0" stop-color="#E8FEFF"/>
+      <stop offset="0.5" stop-color="#7DF9FF" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#00B4FF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="40" y="17" width="430" height="2" fill="url(#left)"/>
+  <rect x="530" y="17" width="430" height="2" fill="url(#right)"/>
+  <path d="M466 18l6-6 6 6-6 6z M522 18l6-6 6 6-6 6z" fill="#C1121F"/>
+  <circle cx="500" cy="18" r="17" fill="url(#pulse)">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="500" cy="18" r="10" fill="#0E2A33" stroke="#FFC72C" stroke-width="2"/>
+  <circle cx="500" cy="18" r="5" fill="#E8FEFF"/>
+</svg>

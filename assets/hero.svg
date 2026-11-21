@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-labelledby="title desc">
+  <title id="title">Abhay Verma · Java Backend Engineer</title>
+  <desc id="desc">A red and gold heads-up display with a glowing arc reactor, the name Abhay Verma, the title Java Backend Engineer and the line Spring Boot · Spring Security · Microservices · REST APIs.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A0A0E"/>
+      <stop offset="0.6" stop-color="#15070A"/>
+      <stop offset="1" stop-color="#43090F"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFE9A3"/>
+      <stop offset="0.45" stop-color="#FFC72C"/>
+      <stop offset="1" stop-color="#C8930A"/>
+    </linearGradient>
+    <radialGradient id="glow-r">
+      <stop offset="0" stop-color="#E8FEFF" stop-opacity="0.9"/>
+      <stop offset="0.4" stop-color="#6EF3FF" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#00B4FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="core-r">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.55" stop-color="#C6FDFF"/>
+      <stop offset="1" stop-color="#27D3EE"/>
+    </radialGradient>
+    <filter id="blur-r" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFC72C" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#FFC72C" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#FFC72C" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse">
+      <path d="M25 0H0V25" fill="none" stroke="#FFC72C" stroke-opacity="0.05"/>
+    </pattern>
+    <filter id="redglow" x="-10%" y="-40%" width="120%" height="180%">
+      <feDropShadow dx="0" dy="0" stdDeviation="5" flood-color="#E0242F" flood-opacity="0.75"/>
+    </filter>
+    <clipPath id="typed">
+      <rect x="330" y="196" width="564" height="28">
+        <animate attributeName="width" values="0;564;564;0" keyTimes="0;0.45;0.92;1" dur="8s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <rect width="1000" height="300" rx="16" fill="url(#bg)"/>
+  <rect width="1000" height="300" rx="16" fill="url(#grid)"/>
+  <rect x="1" y="1" width="998" height="298" rx="15" fill="none" stroke="#FFC72C" stroke-opacity="0.3"/>
+
+  <g fill="none" stroke="#FFC72C" stroke-width="3" stroke-opacity="1.0">
+    <path d="M20 52V20H52"/>
+    <path d="M948 20H980V52"/>
+    <path d="M980 248V280H948"/>
+    <path d="M52 280H20V248"/>
+  </g>
+
+  <g transform="translate(170 150) scale(1.0)">
+    <circle r="128" fill="url(#glow-r)">
+      <animate attributeName="opacity" values="0.45;0.9;0.45" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="116" fill="none" stroke="#FFC72C" stroke-opacity="0.75" stroke-width="2" stroke-dasharray="2 8">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="30s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="104" fill="none" stroke="#C1121F" stroke-width="4" stroke-dasharray="48 16">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="20s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="92" fill="#16191E" stroke="#9AA4AE" stroke-width="6"/>
+    <circle r="86" fill="none" stroke="#3A4048" stroke-width="2"/>
+    <g fill="#C27A3B" stroke="#4A2A12" stroke-width="1.5">
+        <path d="M-10 -82L10 -82L7 -60L-7 -60Z" transform="rotate(0)"/>
+        <path d="M-10 -82L10 -82L7 -60L-7 -60Z" transform="rotate(36)"/>
+        <path d="M-10 -82L10 -82L7 -60L-7 -60Z" transform="rotate(72)"/>
+        <path d="M-10 -82L10 -82L7 -60L-7 -60Z" transform="rotate(108)"/>
+        <path d="M-10 -82L10 -82L7 -60L-7 -60Z" transform="rotate(144)"/>
+        <path d="M-10 -82L10 -82L7 -60L-7 -60Z" transform="rotate(180)"/>
+        <path d="M-10 -82L10 -82L7 -60L-7 -60Z" transform="rotate(216)"/>
+        <path d="M-10 -82L10 -82L7 -60L-7 -60Z" transform="rotate(252)"/>
+        <path d="M-10 -82L10 -82L7 -60L-7 -60Z" transform="rotate(288)"/>
+        <path d="M-10 -82L10 -82L7 -60L-7 -60Z" transform="rotate(324)"/>
+    </g>
+    <circle r="56" fill="#0E2A33" stroke="#7DF9FF" stroke-width="3"/>
+    <circle r="46" fill="#7DF9FF" filter="url(#blur-r)">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="38" fill="url(#core-r)">
+      <animate attributeName="r" values="35;40;35" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <text x="330" y="72" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="14" letter-spacing="3" fill="#FFC72C">▸ IDENTITY CONFIRMED · HUD ONLINE</text>
+  <circle cx="826" cy="67" r="4" fill="#E0242F">
+    <animate attributeName="opacity" values="1;0.2;1" dur="1.2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="966" y="72" text-anchor="end" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="12" letter-spacing="2" fill="#FFC72C" fill-opacity="0.75">SYS // JAVA 21</text>
+
+  <text x="326" y="134" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="60" font-weight="800" letter-spacing="5" fill="url(#gold)" filter="url(#redglow)">ABHAY VERMA</text>
+  <text x="330" y="172" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="21" font-weight="600" letter-spacing="7" fill="#F4F4F5">JAVA BACKEND ENGINEER</text>
+
+  <g clip-path="url(#typed)">
+    <text x="330" y="216" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="18" fill="#7DF9FF" textLength="560" lengthAdjust="spacingAndGlyphs">Spring Boot · Spring Security · Microservices · REST APIs</text>
+  </g>
+  <rect x="894" y="199" width="9" height="22" fill="#FFC72C">
+    <animate attributeName="x" values="330;894;894;330" keyTimes="0;0.45;0.92;1" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0" dur="0.9s" calcMode="discrete" repeatCount="indefinite"/>
+  </rect>
+
+  <g font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="13" letter-spacing="2">
+    <text x="330" y="262" fill="#FFC72C">ARC POWER</text>
+    <rect x="438" y="251" width="224" height="13" rx="2" fill="none" stroke="#FFC72C" stroke-opacity="0.65"/>
+    <rect x="441" y="254" width="218" height="7" fill="#C1121F">
+      <animate attributeName="width" values="0;218;218" keyTimes="0;0.35;1" dur="8s" repeatCount="indefinite"/>
+    </rect>
+    <text x="680" y="262" fill="#F4F4F5">STATUS: <tspan fill="#7DF9FF">ONLINE</tspan></text>
+  </g>
+
+  <rect x="16" y="22" width="968" height="2" fill="url(#scan)">
+    <animate attributeName="y" values="22;276;22" dur="7s" repeatCount="indefinite"/>
+  </rect>
+</svg>
